@@ -1,0 +1,60 @@
+{
+    "model_architecture": {
+        "name": "PoseNet",
+        "parameters": 23749,
+        "model_size_kb": 92.76953125,
+        "input_features": 99,
+        "num_classes": 5,
+        "mean_latency_ms": 0.25,
+        "fps_throughput": 3994.7
+    },
+    "training": {
+        "epochs": 25,
+        "duration_seconds": 4.02,
+        "best_val_accuracy": 100.0
+    },
+    "test_performance": {
+        "neural_accuracy_pct": 100.0,
+        "rule_based_accuracy_pct": 100.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "confusion_matrix": [
+            [
+                42,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                37,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                33,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                28,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                48
+            ]
+        ]
+    }
+}
