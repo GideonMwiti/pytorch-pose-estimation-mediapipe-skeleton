@@ -266,3 +266,4 @@ The script will automatically synthesize the full-body pose dataset, evaluate bi
 ## License
 
 This project is open-source under the [MIT License](LICENSE).
+
